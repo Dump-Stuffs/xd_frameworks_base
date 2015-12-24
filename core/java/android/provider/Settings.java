@@ -5005,6 +5005,12 @@ public final class Settings {
          */
         public static final String VOLUME_PANEL_ON_LEFT = "volume_panel_on_left";
 
+	/**
+         * Show 4G instead of LTE
+         * @hide
+         */
+        public static final String SHOW_FOURG = "show_fourg";
+
         /**
          * Show app volume rows in volume panel
          * @hide
@@ -5141,6 +5147,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(SYSTEMUI_PLUGIN_VOLUME);
             PRIVATE_SETTINGS.add(DOUBLE_TAP_SLEEP_GESTURE);
             PRIVATE_SETTINGS.add(VOLUME_PANEL_ON_LEFT);
+            PRIVATE_SETTINGS.add(SHOW_FOURG);
         }
 
         /**
