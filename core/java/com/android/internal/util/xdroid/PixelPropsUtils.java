@@ -155,6 +155,17 @@ public class PixelPropsUtils {
             }
         }
         
+        if (Arrays.asList(packagesToChangePixel2).contains(packageName)){
+            if (DEBUG){
+                Log.d(TAG, "Defining props for: " + packageName);
+            }
+            for (Map.Entry<String, Object> prop : propsToChangePixel2.entrySet()) {
+                String key = prop.getKey();
+                Object value = prop.getValue();
+                setPropValue(key, value);
+            }
+        }
+
         if (Arrays.asList(packagesToChangeROG1).contains(packageName)) {
             if (DEBUG) Log.d(TAG, "Defining props for: " + packageName);
             for (Map.Entry<String, Object> prop : propsToChangeROG1.entrySet()) {
