@@ -5017,7 +5017,12 @@ public final class Settings {
         public static final String SHOW_FOURG = "show_fourg";
 
         /**
-         * Show app volume rows in volume panel
+         * Whether to display cross sign for a data disabled connection
+         * @hide
+         */
+        public static final String DATA_DISABLED_ICON = "data_disabled_icon";
+
+        /**
          * @hide
          */
         public static final String SHOW_APP_VOLUME = "show_app_volume";
