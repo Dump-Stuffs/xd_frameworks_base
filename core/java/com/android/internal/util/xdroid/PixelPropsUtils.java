@@ -140,7 +140,7 @@ public class PixelPropsUtils {
             for (Map.Entry<String, Object> prop : propsToChange.entrySet()) {
                 String key = prop.getKey();
                 Object value = prop.getValue();
-                value(key, value);
+                setPropValue(key, value);
             }
         }
         
