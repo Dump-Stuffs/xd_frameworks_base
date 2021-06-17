@@ -5000,6 +5000,11 @@ public final class Settings {
         public static final String QS_COLUMNS_LANDSCAPE = "qs_columns_landscape";
 
         /**
+         * @hide
+         */
+        public static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
+
+        /**
          * Volume panel on left
          * @hide
          */
@@ -5148,6 +5153,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(DOUBLE_TAP_SLEEP_GESTURE);
             PRIVATE_SETTINGS.add(VOLUME_PANEL_ON_LEFT);
             PRIVATE_SETTINGS.add(SHOW_FOURG);
+            PRIVATE_SETTINGS.add(USE_OLD_MOBILETYPE);
         }
 
         /**
