@@ -946,13 +946,11 @@ public class StatusBar extends SystemUI implements DemoMode,
 
         createAndAddWindows(result);
 
-<<<<<<< HEAD
         mStatusBarSettingsObserver.observe();
         mStatusBarSettingsObserver.update();
-=======
+
         mHornSettingsObserver.observe();
         mHornSettingsObserver.update();
->>>>>>> 74485e8f158f... SystemUI: allow to switch back to pre P mobile type icon style [1/2]
 
         if (mWallpaperSupported) {
             // Make sure we always have the most current wallpaper info.
